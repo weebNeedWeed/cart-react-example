@@ -1,0 +1,78 @@
+.h1 {
+	font-size: 30px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	margin: 0;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+
+.shop-item-list {
+	display: flex;
+	gap: 30px;
+	justify-content: flex-start;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+.shop-item {
+	border: 1px solid black;
+	flex-basis: 250px;
+	padding: 10px;
+}
+
+.shop-item-button {
+	float: right;
+}
+
+.cart-item-list {
+	border-collapse: collapse;
+	flex-basis: 70%;
+}
+
+.cart-item-list td,
+.cart-item-list th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+.cart-item-list td:nth-child(1),
+.cart-item-list th:nth-child(1) {
+	width: 70%;
+}
+
+.cart-item-list tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.cart-item-count {
+	position: absolute;
+	top: 0;
+	right: -1px;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background-color: red;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.cart-icon {
+	position: relative;
+	display: inline-block;
+}
+
+button {
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	background-color: white;
+	border-radius: 2px;
+	transition: all 0.2s;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
